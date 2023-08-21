@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
         double radius;
-        double area;
+        double circleArea;
         Scanner input;
 
         input = new Scanner(System.in);
@@ -13,8 +13,8 @@ public class Area {
         radius = input.nextDouble();
         input.close();
 
-        area = Circle.getArea(radius);
+        circleArea = Circle.getArea(radius);
 
-        System.out.println("The area is: " +area);
+        System.out.println("The area is: " +circleArea);
     }
 }
