@@ -14,18 +14,30 @@ public class MenuItem {
     }
 
     public void setPrice(double price) {
+
         this.price = price;
     }
-
     public void setDescription(String description) {
+
         this.description = description;
     }
 
     public void setCategory(String category) {
+
         this.category = category;
     }
 
     public void setNew(boolean aNew) {
+
         isNew = aNew;
     }
+    public boolean isNew() {
+        return this.isNew;
+    }
+    public String getName() {
+        System.out.println(category);
+        return category;
+    }
+
+
 }
